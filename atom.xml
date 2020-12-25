@@ -1,27 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>李万鹏</title>
   
+  <subtitle>李万鹏的博客</subtitle>
+  <link href="https://github.com/15600563705/15600563705.github.io/child/atom.xml" rel="self"/>
   
-  <link href="http://example.com/child/atom.xml" rel="self"/>
-  
-  <link href="http://example.com/child/"/>
-  <updated>2020-12-25T02:35:37.346Z</updated>
-  <id>http://example.com/child/</id>
+  <link href="https://github.com/15600563705/15600563705.github.io/child/"/>
+  <updated>2020-12-25T08:24:27.387Z</updated>
+  <id>https://github.com/15600563705/15600563705.github.io/child/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>李万鹏</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>那时候的爱情</title>
+    <link href="https://github.com/15600563705/15600563705.github.io/child/2020/12/25/na-shi-hou-de-ai-qing/"/>
+    <id>https://github.com/15600563705/15600563705.github.io/child/2020/12/25/na-shi-hou-de-ai-qing/</id>
+    <published>2020-12-25T08:23:42.000Z</published>
+    <updated>2020-12-25T08:24:27.387Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;1、Hexo使用攻略-添加分类及标签 - 简书.html（&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="情绪管理" scheme="https://github.com/15600563705/15600563705.github.io/child/categories/%E6%83%85%E7%BB%AA%E7%AE%A1%E7%90%86/"/>
+    
+    
+    <category term="抑郁症" scheme="https://github.com/15600563705/15600563705.github.io/child/tags/%E6%8A%91%E9%83%81%E7%97%87/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
-    <link href="http://example.com/child/2020/12/25/hello-world/"/>
-    <id>http://example.com/child/2020/12/25/hello-world/</id>
-    <published>2020-12-25T02:35:37.346Z</published>
-    <updated>2020-12-25T02:35:37.346Z</updated>
+    <link href="https://github.com/15600563705/15600563705.github.io/child/2020/12/25/hello-world/"/>
+    <id>https://github.com/15600563705/15600563705.github.io/child/2020/12/25/hello-world/</id>
+    <published>2020-12-25T05:48:00.000Z</published>
+    <updated>2020-12-25T07:47:24.114Z</updated>
     
     
       
@@ -34,6 +59,63 @@
     
     
     
+    <category term="C语言" scheme="https://github.com/15600563705/15600563705.github.io/child/categories/C%E8%AF%AD%E8%A8%80/"/>
+    
+    
+    <category term="第一个C程序" scheme="https://github.com/15600563705/15600563705.github.io/child/tags/%E7%AC%AC%E4%B8%80%E4%B8%AAC%E7%A8%8B%E5%BA%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的草稿</title>
+    <link href="https://github.com/15600563705/15600563705.github.io/child/2020/12/25/wo-de-cao-gao/"/>
+    <id>https://github.com/15600563705/15600563705.github.io/child/2020/12/25/wo-de-cao-gao/</id>
+    <published>2020-12-25T05:48:00.000Z</published>
+    <updated>2020-12-25T07:46:32.281Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre class=&quot;line-numbers language-python&quot; data-language=&quot;python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="Python" scheme="https://github.com/15600563705/15600563705.github.io/child/categories/Python/"/>
+    
+    
+    <category term="python语法" scheme="https://github.com/15600563705/15600563705.github.io/child/tags/python%E8%AF%AD%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的草稿</title>
+    <link href="https://github.com/15600563705/15600563705.github.io/child/2020/12/25/huan-ying-lai-dao-wo-de-bo-ke/"/>
+    <id>https://github.com/15600563705/15600563705.github.io/child/2020/12/25/huan-ying-lai-dao-wo-de-bo-ke/</id>
+    <published>2020-12-25T05:48:00.000Z</published>
+    <updated>2020-12-25T07:47:08.762Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;欢迎来到我的博客&quot;&gt;&lt;a href=&quot;#欢迎来到我的博客&quot; class=&quot;headerlink&quot; title=&quot;欢迎来到我的博客&quot;&gt;&lt;/a&gt;欢迎来到我的博客&lt;/h1&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="Python" scheme="https://github.com/15600563705/15600563705.github.io/child/categories/Python/"/>
+    
+    
+    <category term="python基础" scheme="https://github.com/15600563705/15600563705.github.io/child/tags/python%E5%9F%BA%E7%A1%80/"/>
     
   </entry>
   
