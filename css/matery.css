@@ -244,6 +244,14 @@ mark {
     background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
 }
 
+@-webkit-keyframes rainbow {
+   /* Dynamically switch background colors. */
+}
+
+@keyframes rainbow {
+    /* Dynamically switch background colors. */
+}
+
 .text-color {
     color: #0f9d58 !important;
 }
