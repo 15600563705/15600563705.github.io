@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="那时候的爱情, 李万鹏">
+    <meta name="keywords" content="Python 列表(List), 李万鹏">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>那时候的爱情 | 李万鹏</title>
+    <title>Python 列表(List) | 李万鹏</title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/15600563705/15600563705.github.io/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/15600563705/15600563705.github.io/libs/awesome/css/all.css">
@@ -323,12 +323,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/15600563705/15600563705.github.io/medias/featureimages/6.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/15600563705/15600563705.github.io/medias/featureimages/16.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">那时候的爱情</h1>
+                    <h1 class="description center-align post-title">Python 列表(List)</h1>
                 </div>
             </div>
         </div>
@@ -444,8 +444,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E6%8A%91%E9%83%81%E7%97%87/">
-                                <span class="chip bg-color">抑郁症</span>
+                            <a href="/tags/python%E5%9F%BA%E7%A1%80/">
+                                <span class="chip bg-color">python基础</span>
                             </a>
                         
                     </div>
@@ -456,8 +456,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E6%83%85%E7%BB%AA%E7%AE%A1%E7%90%86/" class="post-category">
-                                情绪管理
+                            <a href="/categories/Python/" class="post-category">
+                                Python
                             </a>
                         
                     </div>
@@ -483,14 +483,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    743
+                    1.3k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    2 分
+                    5 分
                 </div>
                 
 
@@ -513,64 +513,249 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>1、Hexo使用攻略-添加分类及标签 - 简书.html（<a target="_blank" rel="noopener" href="https://www.jianshu.com/p/e17711e44e00%EF%BC%89">https://www.jianshu.com/p/e17711e44e00）</a></p>
-<p>　ZC：我在 默认主题landscape 下测试的，也是显示OK的。</p>
-<p>2、</p>
-<h3 id="1、创建“分类”选项"><a href="#1、创建“分类”选项" class="headerlink" title="1、创建“分类”选项"></a>1、创建“分类”选项</h3><h4 id="1-1-生成“分类”页并添加tpye属性"><a href="#1-1-生成“分类”页并添加tpye属性" class="headerlink" title="1.1 生成“分类”页并添加tpye属性"></a>1.1 生成“分类”页并添加tpye属性</h4><p>打开命令行，进入博客所在文件夹。执行命令</p>
-<pre class="line-numbers language-cpp" data-language="cpp"><code class="language-cpp">$ hexo <span class="token keyword">new</span> page categories<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>成功后会提示：</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">INFO  Created: ~/Documents/blog/source/categories/index.md<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>根据上面的路径，找到<code>index.md</code>这个文件，打开后默认内容是这样的：</p>
-<pre class="line-numbers language-css" data-language="css"><code class="language-css">---
-<span class="token property">title</span><span class="token punctuation">:</span> 文章分类
-<span class="token property">date</span><span class="token punctuation">:</span> 2017-05-27 13<span class="token punctuation">:</span>47<span class="token punctuation">:</span>40
----<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-<p>添加<code>type: "categories"</code>到内容中，添加后是这样的：</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">---
-title: 文章分类
-date: <span class="token number">2017</span>-05-27 <span class="token number">13</span>:47:40
-type: <span class="token string">"categories"</span>
----<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p>保存并关闭文件。</p>
-<h4 id="1-2-给文章添加“categories”属性"><a href="#1-2-给文章添加“categories”属性" class="headerlink" title="1.2 给文章添加“categories”属性"></a>1.2 给文章添加“categories”属性</h4><p>打开需要添加分类的文章，为其添加categories属性。下方的<code>categories: web前端</code>表示添加这篇文章到“web前端”这个分类。注意：hexo一篇文章只能属于一个分类，也就是说如果在“- web前端”下方添加“-xxx”，hexo不会产生两个分类，而是把分类嵌套（即该文章属于 “- web前端”下的 “-xxx ”分类）。</p>
-<p>　<strong>ZC：注意下面是对 文章中的 “categories”属性 进行设置</strong></p>
-<pre class="line-numbers language-css" data-language="css"><code class="language-css">---
-<span class="token property">title</span><span class="token punctuation">:</span> jQuery对表单的操作及更多应用
-<span class="token property">date</span><span class="token punctuation">:</span> 2017-05-26 12<span class="token punctuation">:</span>12<span class="token punctuation">:</span>57
-<span class="token property">categories</span><span class="token punctuation">:</span> 
-- web前端
----<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p>至此，成功给文章添加分类，点击首页的“分类”可以看到该分类下的所有文章。当然，只有添加了<code>categories: xxx</code>的文章才会被收录到首页的“分类”中。</p>
-<h3 id="2、创建“标签”选项"><a href="#2、创建“标签”选项" class="headerlink" title="2、创建“标签”选项"></a>2、创建“标签”选项</h3><h4 id="2-1-生成“标签”页并添加tpye属性"><a href="#2-1-生成“标签”页并添加tpye属性" class="headerlink" title="2.1 生成“标签”页并添加tpye属性"></a>2.1 生成“标签”页并添加tpye属性</h4><p>打开命令行，进入博客所在文件夹。执行命令</p>
-<pre class="line-numbers language-cpp" data-language="cpp"><code class="language-cpp">$ hexo <span class="token keyword">new</span> page tags<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>成功后会提示：</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">INFO  Created: ~/Documents/blog/source/tags/index.md<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>根据上面的路径，找到<code>index.md</code>这个文件，打开后默认内容是这样的：</p>
-<pre class="line-numbers language-css" data-language="css"><code class="language-css">---
-<span class="token property">title</span><span class="token punctuation">:</span> 标签
-<span class="token property">date</span><span class="token punctuation">:</span> 2017-05-27 14<span class="token punctuation">:</span>22<span class="token punctuation">:</span>08
----<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-<p>添加<code>type: "tags"</code>到内容中，添加后是这样的：</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">---
-title: 文章分类
-date: <span class="token number">2017</span>-05-27 <span class="token number">13</span>:47:40
-type: <span class="token string">"tags"</span>
----<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p>保存并关闭文件。</p>
-<h4 id="2-2-给文章添加“tags”属性"><a href="#2-2-给文章添加“tags”属性" class="headerlink" title="2.2 给文章添加“tags”属性"></a>2.2 给文章添加“tags”属性</h4><p>打开需要添加标签的文章，为其添加tags属性。下方的<code>tags:</code>下方的<code>- jQuery</code> <code>- 表格</code><br><code>- 表单验证</code>就是这篇文章的标签了</p>
-<p>　<strong>ZC：注意下面是对 文章中的 “tags”属性 进行设置</strong></p>
-<pre class="line-numbers language-css" data-language="css"><code class="language-css">---
-<span class="token property">title</span><span class="token punctuation">:</span> jQuery对表单的操作及更多应用
-<span class="token property">date</span><span class="token punctuation">:</span> 2017-05-26 12<span class="token punctuation">:</span>12<span class="token punctuation">:</span>57
-<span class="token property">categories</span><span class="token punctuation">:</span> 
-- web前端
-<span class="token property">tags</span><span class="token punctuation">:</span>
-- jQuery
-- 表格
-- 表单验证
----<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p>至此，成功给文章添加分类，点击首页的“标签”可以看到该标签下的所有文章。当然，只有添加了<code>tags: xxx</code>的文章才会被收录到首页的“标签”中。</p>
-<p>细心的朋友可能已经发现，这两个的设置几乎一模一样！是的，没错，思路都是一样的。所以我们可以打开scaffolds/post.md文件，在tages:上面加入categories:,保存后，之后执行<code>hexo new 文章名</code>命令生成的文件，页面里就有<code>categorie</code></p>
+                <h1 id="Python3-列表"><a href="#Python3-列表" class="headerlink" title="Python3 列表"></a>Python3 列表</h1><p>序列是 Python 中最基本的数据结构。</p>
+<p>序列中的每个值都有对应的位置值，称之为索引，第一个索引是 0，第二个索引是 1，依此类推。</p>
+<p>Python 有 6 个序列的内置类型，但最常见的是列表和元组。</p>
+<p>列表都可以进行的操作包括索引，切片，加，乘，检查成员。</p>
+<p>此外，Python 已经内置确定序列的长度以及确定最大和最小的元素的方法。</p>
+<p>列表是最常用的 Python 数据类型，它可以作为一个方括号内的逗号分隔值出现。</p>
+<p>列表的数据项不需要具有相同的类型</p>
+<p>创建一个列表，只要把逗号分隔的不同的数据项使用方括号括起来即可。如下所示：</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">list1 <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'Google'</span><span class="token punctuation">,</span> <span class="token string">'Runoob'</span><span class="token punctuation">,</span> <span class="token number">1997</span><span class="token punctuation">,</span> <span class="token number">2000</span><span class="token punctuation">]</span> 
+list2 <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">5</span> <span class="token punctuation">]</span> 
+list3 <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">"a"</span><span class="token punctuation">,</span> <span class="token string">"b"</span><span class="token punctuation">,</span> <span class="token string">"c"</span><span class="token punctuation">,</span> <span class="token string">"d"</span><span class="token punctuation">]</span> 
+list4 <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'red'</span><span class="token punctuation">,</span> <span class="token string">'green'</span><span class="token punctuation">,</span> <span class="token string">'blue'</span><span class="token punctuation">,</span> <span class="token string">'yellow'</span><span class="token punctuation">,</span> <span class="token string">'white'</span><span class="token punctuation">,</span> <span class="token string">'black'</span><span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<h2 id="访问列表中的值"><a href="#访问列表中的值" class="headerlink" title="访问列表中的值"></a>访问列表中的值</h2><h3 id="顺序索引"><a href="#顺序索引" class="headerlink" title="顺序索引"></a>顺序索引</h3><p>与字符串的索引一样，列表索引从 <strong>0</strong> 开始，第二个索引是 <strong>1</strong>，依此类推。</p>
+<p>通过索引列表可以进行截取、组合等操作。</p>
+<p><img src="https://www.runoob.com/wp-content/uploads/2014/05/positive-indexes-1.png" alt="img"></p>
+<h4 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h4><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token builtin">list</span> <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'red'</span><span class="token punctuation">,</span> <span class="token string">'green'</span><span class="token punctuation">,</span> <span class="token string">'blue'</span><span class="token punctuation">,</span> <span class="token string">'yellow'</span><span class="token punctuation">,</span> <span class="token string">'white'</span><span class="token punctuation">,</span> <span class="token string">'black'</span><span class="token punctuation">]</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span> <span class="token builtin">list</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span> <span class="token builtin">list</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span> <span class="token builtin">list</span><span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span> <span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<p>以上实例输出结果：</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">red
+green
+blue<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<h3 id="倒序索引"><a href="#倒序索引" class="headerlink" title="倒序索引"></a>倒序索引</h3><p>索引也可以从尾部开始，最后一个元素的索引为 <strong>-1</strong>，往前一位为 <strong>-2</strong>，以此类推。</p>
+<p><img src="https://www.runoob.com/wp-content/uploads/2014/05/negative-indexes.png" alt="img"></p>
+<h4 id="实例-1"><a href="#实例-1" class="headerlink" title="实例"></a>实例</h4><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token builtin">list</span> <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'red'</span><span class="token punctuation">,</span> <span class="token string">'green'</span><span class="token punctuation">,</span> <span class="token string">'blue'</span><span class="token punctuation">,</span> <span class="token string">'yellow'</span><span class="token punctuation">,</span> <span class="token string">'white'</span><span class="token punctuation">,</span> <span class="token string">'black'</span><span class="token punctuation">]</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span> <span class="token builtin">list</span><span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span> <span class="token builtin">list</span><span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">2</span><span class="token punctuation">]</span> <span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span> <span class="token builtin">list</span><span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">3</span><span class="token punctuation">]</span> <span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<p>以上实例输出结果：</p>
+<pre class="line-numbers language-none"><code class="language-none">black
+white
+yellow<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<h3 id="切片索引"><a href="#切片索引" class="headerlink" title="切片索引"></a>切片索引</h3><p>使用下标索引来访问列表中的值，同样你也可以使用方括号 <strong>[]</strong> 的形式截取字符，如下所示：</p>
+<p><img src="https://www.runoob.com/wp-content/uploads/2014/05/first-slice.png" alt="img"></p>
+<h4 id="实例-2"><a href="#实例-2" class="headerlink" title="实例"></a>实例</h4><pre class="line-numbers language-python" data-language="python"><code class="language-python">nums <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">20</span><span class="token punctuation">,</span> <span class="token number">30</span><span class="token punctuation">,</span> <span class="token number">40</span><span class="token punctuation">,</span> <span class="token number">50</span><span class="token punctuation">,</span> <span class="token number">60</span><span class="token punctuation">,</span> <span class="token number">70</span><span class="token punctuation">,</span> <span class="token number">80</span><span class="token punctuation">,</span> <span class="token number">90</span><span class="token punctuation">]</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>nums<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">:</span><span class="token number">4</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<p>以上实例输出结果：</p>
+<pre class="line-numbers language-none"><code class="language-none">[10, 20, 30, 40]<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h3 id="负数索引值截取"><a href="#负数索引值截取" class="headerlink" title="负数索引值截取"></a>负数索引值截取</h3><h4 id="实例-3"><a href="#实例-3" class="headerlink" title="实例"></a>实例</h4><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token builtin">list</span> <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'Google'</span><span class="token punctuation">,</span> <span class="token string">'Runoob'</span><span class="token punctuation">,</span> <span class="token string">"Zhihu"</span><span class="token punctuation">,</span> <span class="token string">"Taobao"</span><span class="token punctuation">,</span> <span class="token string">"Wiki"</span><span class="token punctuation">]</span> 
+
+<span class="token comment"># 读取第二位 </span>
+<span class="token keyword">print</span> <span class="token punctuation">(</span><span class="token string">"list[1]: "</span><span class="token punctuation">,</span> <span class="token builtin">list</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span> 
+<span class="token comment"># 从第二位开始（包含）截取到倒数第二位（不包含） </span>
+<span class="token keyword">print</span> <span class="token punctuation">(</span><span class="token string">"list[1:-2]: "</span><span class="token punctuation">,</span> <span class="token builtin">list</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">:</span><span class="token operator">-</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>以上实例输出结果：</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token builtin">list</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">:</span>  Runoob
+<span class="token builtin">list</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">:</span><span class="token operator">-</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">:</span>  <span class="token punctuation">[</span><span class="token string">'Runoob'</span><span class="token punctuation">,</span> <span class="token string">'Zhihu'</span><span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<hr>
+<h2 id="更新列表"><a href="#更新列表" class="headerlink" title="更新列表"></a>更新列表</h2><p>你可以对列表的数据项进行修改或更新，你也可以使用 append() 方法来添加列表项，如下所示：</p>
+<h4 id="实例-Python-3-0"><a href="#实例-Python-3-0" class="headerlink" title="实例(Python 3.0+)"></a>实例(Python 3.0+)</h4><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token builtin">list</span> <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'Google'</span><span class="token punctuation">,</span> <span class="token string">'Runoob'</span><span class="token punctuation">,</span> <span class="token number">1997</span><span class="token punctuation">,</span> <span class="token number">2000</span><span class="token punctuation">]</span>  
+<span class="token keyword">print</span> <span class="token punctuation">(</span><span class="token string">"第三个元素为 : "</span><span class="token punctuation">,</span> <span class="token builtin">list</span><span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">)</span> 
+<span class="token builtin">list</span><span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">2001</span> 
+<span class="token keyword">print</span> <span class="token punctuation">(</span><span class="token string">"更新后的第三个元素为 : "</span><span class="token punctuation">,</span> <span class="token builtin">list</span><span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<p><strong>注意：</strong>我们会在接下来的章节讨论append()方法的使用</p>
+<p>以上实例输出结果：</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">第三个元素为 <span class="token punctuation">:</span>  <span class="token number">1997</span>
+更新后的第三个元素为 <span class="token punctuation">:</span>  <span class="token number">2001</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<hr>
+<h2 id="删除列表元素"><a href="#删除列表元素" class="headerlink" title="删除列表元素"></a>删除列表元素</h2><p>可以使用 del 语句来删除列表的的元素，如下实例：</p>
+<h4 id="实例-Python-3-0-1"><a href="#实例-Python-3-0-1" class="headerlink" title="实例(Python 3.0+)"></a>实例(Python 3.0+)</h4><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token builtin">list</span> <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'Google'</span><span class="token punctuation">,</span> <span class="token string">'Runoob'</span><span class="token punctuation">,</span> <span class="token number">1997</span><span class="token punctuation">,</span> <span class="token number">2000</span><span class="token punctuation">]</span>  
+<span class="token keyword">print</span> <span class="token punctuation">(</span><span class="token string">"原始列表 : "</span><span class="token punctuation">,</span> <span class="token builtin">list</span><span class="token punctuation">)</span> 
+<span class="token keyword">del</span> <span class="token builtin">list</span><span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span> 
+<span class="token keyword">print</span> <span class="token punctuation">(</span><span class="token string">"删除第三个元素 : "</span><span class="token punctuation">,</span> <span class="token builtin">list</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<p>以上实例输出结果：</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">原始列表 <span class="token punctuation">:</span>  <span class="token punctuation">[</span><span class="token string">'Google'</span><span class="token punctuation">,</span> <span class="token string">'Runoob'</span><span class="token punctuation">,</span> <span class="token number">1997</span><span class="token punctuation">,</span> <span class="token number">2000</span><span class="token punctuation">]</span>
+删除第三个元素 <span class="token punctuation">:</span>  <span class="token punctuation">[</span><span class="token string">'Google'</span><span class="token punctuation">,</span> <span class="token string">'Runoob'</span><span class="token punctuation">,</span> <span class="token number">2000</span><span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<p><strong>注意：</strong>我们会在接下来的章节讨论 remove() 方法的使用</p>
+<hr>
+<h2 id="列表脚本操作符"><a href="#列表脚本操作符" class="headerlink" title="列表脚本操作符"></a>列表脚本操作符</h2><p>列表对 + 和 * 的操作符与字符串相似。+ 号用于组合列表，* 号用于重复列表。</p>
+<p>如下所示：</p>
+<table>
+<thead>
+<tr>
+<th align="left">Python 表达式</th>
+<th align="left">结果</th>
+<th align="left">描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">len([1, 2, 3])</td>
+<td align="left">3</td>
+<td align="left">长度</td>
+</tr>
+<tr>
+<td align="left">[1, 2, 3] + [4, 5, 6]</td>
+<td align="left">[1, 2, 3, 4, 5, 6]</td>
+<td align="left">组合</td>
+</tr>
+<tr>
+<td align="left">[‘Hi!’] * 4</td>
+<td align="left">[‘Hi!’, ‘Hi!’, ‘Hi!’, ‘Hi!’]</td>
+<td align="left">重复</td>
+</tr>
+<tr>
+<td align="left">3 in [1, 2, 3]</td>
+<td align="left">True</td>
+<td align="left">元素是否存在于列表中</td>
+</tr>
+<tr>
+<td align="left">for x in [1, 2, 3]: print(x, end=” “)</td>
+<td align="left">1 2 3</td>
+<td align="left">迭代</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="列表截取与拼接"><a href="#列表截取与拼接" class="headerlink" title="列表截取与拼接"></a>列表截取与拼接</h2><p>Python的列表截取与字符串操作类型，如下所示：</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">L<span class="token operator">=</span><span class="token punctuation">[</span><span class="token string">'Google'</span><span class="token punctuation">,</span> <span class="token string">'Runoob'</span><span class="token punctuation">,</span> <span class="token string">'Taobao'</span><span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>操作：</p>
+<table>
+<thead>
+<tr>
+<th align="left">Python 表达式</th>
+<th align="left">结果</th>
+<th align="left">描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">L[2]</td>
+<td align="left">‘Taobao’</td>
+<td align="left">读取第三个元素</td>
+</tr>
+<tr>
+<td align="left">L[-2]</td>
+<td align="left">‘Runoob’</td>
+<td align="left">从右侧开始读取倒数第二个元素: count from the right</td>
+</tr>
+<tr>
+<td align="left">L[1:]</td>
+<td align="left">[‘Runoob’, ‘Taobao’]</td>
+<td align="left">输出从第二个元素开始后的所有元素</td>
+</tr>
+</tbody></table>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span>L<span class="token operator">=</span><span class="token punctuation">[</span><span class="token string">'Google'</span><span class="token punctuation">,</span> <span class="token string">'Runoob'</span><span class="token punctuation">,</span> <span class="token string">'Taobao'</span><span class="token punctuation">]</span> 
+<span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> L<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span>
+<span class="token string">'Taobao'</span> 
+<span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> L<span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">2</span><span class="token punctuation">]</span> 
+<span class="token string">'Runoob'</span> 
+<span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> L<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">:</span><span class="token punctuation">]</span> 
+<span class="token punctuation">[</span><span class="token string">'Runoob'</span><span class="token punctuation">,</span> <span class="token string">'Taobao'</span><span class="token punctuation">]</span> 
+<span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span>
+
+列表还支持拼接操作：
+
+<span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span>squares <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">9</span><span class="token punctuation">,</span> <span class="token number">16</span><span class="token punctuation">,</span> <span class="token number">25</span><span class="token punctuation">]</span> 
+<span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> squares <span class="token operator">+=</span> <span class="token punctuation">[</span><span class="token number">36</span><span class="token punctuation">,</span> <span class="token number">49</span><span class="token punctuation">,</span> <span class="token number">64</span><span class="token punctuation">,</span> <span class="token number">81</span><span class="token punctuation">,</span> <span class="token number">100</span><span class="token punctuation">]</span> 
+<span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> squares
+ <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">9</span><span class="token punctuation">,</span> <span class="token number">16</span><span class="token punctuation">,</span> <span class="token number">25</span><span class="token punctuation">,</span> <span class="token number">36</span><span class="token punctuation">,</span> <span class="token number">49</span><span class="token punctuation">,</span> <span class="token number">64</span><span class="token punctuation">,</span> <span class="token number">81</span><span class="token punctuation">,</span> <span class="token number">100</span><span class="token punctuation">]</span> 
+<span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+
+<hr>
+<h2 id="嵌套列表"><a href="#嵌套列表" class="headerlink" title="嵌套列表"></a>嵌套列表</h2><p>使用嵌套列表即在列表里创建其它列表，例如：</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span>a <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'a'</span><span class="token punctuation">,</span> <span class="token string">'b'</span><span class="token punctuation">,</span> <span class="token string">'c'</span><span class="token punctuation">]</span> 
+<span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> n <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">]</span> 
+<span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> x <span class="token operator">=</span> <span class="token punctuation">[</span>a<span class="token punctuation">,</span> n<span class="token punctuation">]</span> 
+<span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> x 
+<span class="token punctuation">[</span><span class="token punctuation">[</span><span class="token string">'a'</span><span class="token punctuation">,</span> <span class="token string">'b'</span><span class="token punctuation">,</span> <span class="token string">'c'</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">]</span> 
+<span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> x<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span>
+<span class="token punctuation">[</span><span class="token string">'a'</span><span class="token punctuation">,</span> <span class="token string">'b'</span><span class="token punctuation">,</span> <span class="token string">'c'</span><span class="token punctuation">]</span> 
+<span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> x<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span>
+<span class="token string">'b'</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+
+<hr>
+<h2 id="Python列表函数-amp-方法"><a href="#Python列表函数-amp-方法" class="headerlink" title="Python列表函数&amp;方法"></a>Python列表函数&amp;方法</h2><p>Python包含以下函数:</p>
+<table>
+<thead>
+<tr>
+<th align="left">序号</th>
+<th align="left">函数</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">1</td>
+<td align="left"><a target="_blank" rel="noopener" href="https://www.runoob.com/python3/python3-att-list-len.html">len(list)</a> <br>列表元素个数</td>
+</tr>
+<tr>
+<td align="left">2</td>
+<td align="left"><a target="_blank" rel="noopener" href="https://www.runoob.com/python3/python3-att-list-max.html">max(list)</a> <br>返回列表元素最大值</td>
+</tr>
+<tr>
+<td align="left">3</td>
+<td align="left"><a target="_blank" rel="noopener" href="https://www.runoob.com/python3/python3-att-list-min.html">min(list)</a> <br>返回列表元素最小值</td>
+</tr>
+<tr>
+<td align="left">4</td>
+<td align="left"><a target="_blank" rel="noopener" href="https://www.runoob.com/python3/python3-att-list-list.html">list(seq)</a> <br>将元组转换为列表</td>
+</tr>
+</tbody></table>
+<p>Python包含以下方法:</p>
+<table>
+<thead>
+<tr>
+<th align="left">序号</th>
+<th align="left">方法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">1</td>
+<td align="left"><a target="_blank" rel="noopener" href="https://www.runoob.com/python3/python3-att-list-append.html">list.append(obj)</a> <br>在列表末尾添加新的对象</td>
+</tr>
+<tr>
+<td align="left">2</td>
+<td align="left"><a target="_blank" rel="noopener" href="https://www.runoob.com/python3/python3-att-list-count.html">list.count(obj)</a> <br>统计某个元素在列表中出现的次数</td>
+</tr>
+<tr>
+<td align="left">3</td>
+<td align="left"><a target="_blank" rel="noopener" href="https://www.runoob.com/python3/python3-att-list-extend.html">list.extend(seq)</a> <br>在列表末尾一次性追加另一个序列中的多个值（用新列表扩展原来的列表）</td>
+</tr>
+<tr>
+<td align="left">4</td>
+<td align="left"><a target="_blank" rel="noopener" href="https://www.runoob.com/python3/python3-att-list-index.html">list.index(obj)</a> <br>从列表中找出某个值第一个匹配项的索引位置</td>
+</tr>
+<tr>
+<td align="left">5</td>
+<td align="left"><a target="_blank" rel="noopener" href="https://www.runoob.com/python3/python3-att-list-insert.html">list.insert(index, obj)</a> <br>将对象插入列表</td>
+</tr>
+<tr>
+<td align="left">6</td>
+<td align="left">[list.pop(<a target="_blank" rel="noopener" href="https://www.runoob.com/python3/python3-att-list-pop.html">index=-1])</a> <br>移除列表中的一个元素（默认最后一个元素），并且返回该元素的值</td>
+</tr>
+<tr>
+<td align="left">7</td>
+<td align="left"><a target="_blank" rel="noopener" href="https://www.runoob.com/python3/python3-att-list-remove.html">list.remove(obj)</a> <br>移除列表中某个值的第一个匹配项</td>
+</tr>
+<tr>
+<td align="left">8</td>
+<td align="left"><a target="_blank" rel="noopener" href="https://www.runoob.com/python3/python3-att-list-reverse.html">list.reverse()</a> <br>反向列表中元素</td>
+</tr>
+<tr>
+<td align="left">9</td>
+<td align="left"><a target="_blank" rel="noopener" href="https://www.runoob.com/python3/python3-att-list-sort.html">list.sort( key=None, reverse=False)</a> <br>对原列表进行排序</td>
+</tr>
+<tr>
+<td align="left">10</td>
+<td align="left"><a target="_blank" rel="noopener" href="https://www.runoob.com/python3/python3-att-list-clear.html">list.clear()</a> <br>清空列表</td>
+</tr>
+<tr>
+<td align="left">11</td>
+<td align="left"><a target="_blank" rel="noopener" href="https://www.runoob.com/python3/python3-att-list-copy.html">list.copy()</a> <br>复制列表</td>
+</tr>
+</tbody></table>
 
                 
             </div>
@@ -597,7 +782,7 @@ type: <span class="token string">"tags"</span>
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://github.com/15600563705/15600563705.github.io/child/2020/12/25/na-shi-hou-de-ai-qing/">https://github.com/15600563705/15600563705.github.io/child/2020/12/25/na-shi-hou-de-ai-qing/</a>
+                    <a href="https://github.com/15600563705/15600563705.github.io/child/2020/12/25/python-lie-biao/">https://github.com/15600563705/15600563705.github.io/child/2020/12/25/python-lie-biao/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -635,8 +820,8 @@ type: <span class="token string">"tags"</span>
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E6%8A%91%E9%83%81%E7%97%87/">
-                                    <span class="chip bg-color">抑郁症</span>
+                                <a href="/tags/python%E5%9F%BA%E7%A1%80/">
+                                    <span class="chip bg-color">python基础</span>
                                 </a>
                             
                         </div>
@@ -806,18 +991,17 @@ type: <span class="token string">"tags"</span>
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/12/25/na-shi-hou-de-ai-qing/">
+                <a href="/2020/12/25/python-yuan-zu/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/15600563705/15600563705.github.io/medias/featureimages/6.jpg" class="responsive-img" alt="那时候的爱情">
+                        <img src="https://cdn.jsdelivr.net/gh/15600563705/15600563705.github.io/medias/featureimages/13.jpg" class="responsive-img" alt="Python 元组">
                         
-                        <span class="card-title">那时候的爱情</span>
+                        <span class="card-title">Python 元组</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -827,27 +1011,26 @@ type: <span class="token string">"tags"</span>
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-12-25
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-12-25
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E6%83%85%E7%BB%AA%E7%AE%A1%E7%90%86/" class="post-category">
-                                    情绪管理
+                            <a href="/categories/Python/" class="post-category">
+                                    Python
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E6%8A%91%E9%83%81%E7%97%87/">
-                        <span class="chip bg-color">抑郁症</span>
+                    <a href="/tags/python%E5%9F%BA%E7%A1%80/">
+                        <span class="chip bg-color">python基础</span>
                     </a>
                     
                 </div>
@@ -861,13 +1044,13 @@ type: <span class="token string">"tags"</span>
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/12/25/hello-world/">
+                <a href="/2020/12/25/python-zi-dian/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/15600563705/15600563705.github.io/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                        <img src="https://cdn.jsdelivr.net/gh/15600563705/15600563705.github.io/medias/featureimages/21.jpg" class="responsive-img" alt="Python 字典">
                         
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title">Python 字典</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -884,8 +1067,8 @@ type: <span class="token string">"tags"</span>
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/C%E8%AF%AD%E8%A8%80/" class="post-category">
-                                    C语言
+                            <a href="/categories/Python/" class="post-category">
+                                    Python
                                 </a>
                             
                             
@@ -895,8 +1078,8 @@ type: <span class="token string">"tags"</span>
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E7%AC%AC%E4%B8%80%E4%B8%AAC%E7%A8%8B%E5%BA%8F/">
-                        <span class="chip bg-color">第一个C程序</span>
+                    <a href="/tags/python%E5%9F%BA%E7%A1%80/">
+                        <span class="chip bg-color">python基础</span>
                     </a>
                     
                 </div>
@@ -1099,7 +1282,7 @@ type: <span class="token string">"tags"</span>
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">944</span>&nbsp;字
+                class="white-color">3.6k</span>&nbsp;字
             
             
             
