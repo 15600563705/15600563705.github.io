@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Python 字典, 李万鹏">
+    <meta name="keywords" content="20210112_day01, 李万鹏">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Python 字典 | 李万鹏</title>
+    <title>20210112_day01 | 李万鹏</title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/15600563705/15600563705.github.io/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/15600563705/15600563705.github.io/libs/awesome/css/all.css">
@@ -323,12 +323,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/15600563705/15600563705.github.io/medias/featureimages/21.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/15600563705/15600563705.github.io/medias/featureimages/3.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Python 字典</h1>
+                    <h1 class="description center-align post-title">20210112_day01</h1>
                 </div>
             </div>
         </div>
@@ -444,8 +444,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/python%E5%9F%BA%E7%A1%80/">
-                                <span class="chip bg-color">python基础</span>
+                            <a href="/tags/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/">
+                                <span class="chip bg-color">日常记录</span>
                             </a>
                         
                     </div>
@@ -456,8 +456,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Python/" class="post-category">
-                                Python
+                            <a href="/categories/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/" class="post-category">
+                                日常记录
                             </a>
                         
                     </div>
@@ -469,28 +469,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-12-25
+                    2021-01-12
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-12-25
+                    2021-01-12
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.1k
+                    1.8k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    4 分
+                    5 分
                 </div>
                 
 
@@ -513,172 +513,28 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="Python3-字典"><a href="#Python3-字典" class="headerlink" title="Python3 字典"></a>Python3 字典</h1><p>字典是另一种可变容器模型，且可存储任意类型对象。</p>
-<h2 id="创建字典"><a href="#创建字典" class="headerlink" title="创建字典"></a>创建字典</h2><p>字典的每个键值 <strong>key=&gt;value</strong> 对用冒号 <strong>:</strong> 分割，每个对之间用逗号(<strong>,</strong>)分割，整个字典包括在花括号 <strong>{}</strong> 中 ,格式如下所示：</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">d <span class="token operator">=</span> <span class="token punctuation">{</span>key1 <span class="token punctuation">:</span> value1<span class="token punctuation">,</span> key2 <span class="token punctuation">:</span> value2<span class="token punctuation">,</span> key3 <span class="token punctuation">:</span> value3 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p><img src="https://www.runoob.com/wp-content/uploads/2016/04/py-dict-3.png" alt="img"></p>
-<p>键必须是唯一的，但值则不必。</p>
-<p>值可以取任何数据类型，但键必须是不可变的，如字符串，数字。</p>
-<p>一个简单的字典实例：</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token builtin">dict</span> <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token string">'name'</span><span class="token punctuation">:</span> <span class="token string">'runoob'</span><span class="token punctuation">,</span> <span class="token string">'likes'</span><span class="token punctuation">:</span> <span class="token number">123</span><span class="token punctuation">,</span> <span class="token string">'url'</span><span class="token punctuation">:</span> <span class="token string">'www.runoob.com'</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p><img src="https://www.runoob.com/wp-content/uploads/2016/04/py-dict-2.png" alt="img"></p>
-<p>也可如此创建字典：</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">dict1 <span class="token operator">=</span> <span class="token punctuation">{</span> <span class="token string">'abc'</span><span class="token punctuation">:</span> <span class="token number">456</span> <span class="token punctuation">}</span>
-dict2 <span class="token operator">=</span> <span class="token punctuation">{</span> <span class="token string">'abc'</span><span class="token punctuation">:</span> <span class="token number">123</span><span class="token punctuation">,</span> <span class="token number">98.6</span><span class="token punctuation">:</span> <span class="token number">37</span> <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-<hr>
-<h2 id="访问字典里的值"><a href="#访问字典里的值" class="headerlink" title="访问字典里的值"></a>访问字典里的值</h2><p>把相应的键放入到方括号中，如下实例:</p>
-<h4 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h4><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token builtin">dict</span> <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token string">'Name'</span><span class="token punctuation">:</span> <span class="token string">'Runoob'</span><span class="token punctuation">,</span> <span class="token string">'Age'</span><span class="token punctuation">:</span> <span class="token number">7</span><span class="token punctuation">,</span> <span class="token string">'Class'</span><span class="token punctuation">:</span> <span class="token string">'First'</span><span class="token punctuation">}</span> 
-
-<span class="token keyword">print</span> <span class="token punctuation">(</span><span class="token string">"dict['Name']: "</span><span class="token punctuation">,</span> <span class="token builtin">dict</span><span class="token punctuation">[</span><span class="token string">'Name'</span><span class="token punctuation">]</span><span class="token punctuation">)</span> 
-<span class="token keyword">print</span> <span class="token punctuation">(</span><span class="token string">"dict['Age']: "</span><span class="token punctuation">,</span> <span class="token builtin">dict</span><span class="token punctuation">[</span><span class="token string">'Age'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-<p>以上实例输出结果：</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token builtin">dict</span><span class="token punctuation">[</span><span class="token string">'Name'</span><span class="token punctuation">]</span><span class="token punctuation">:</span>  Runoob
-<span class="token builtin">dict</span><span class="token punctuation">[</span><span class="token string">'Age'</span><span class="token punctuation">]</span><span class="token punctuation">:</span>  <span class="token number">7</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-<p>如果用字典里没有的键访问数据，会输出错误如下：</p>
-<h4 id="实例-1"><a href="#实例-1" class="headerlink" title="实例"></a>实例</h4><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token builtin">dict</span> <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token string">'Name'</span><span class="token punctuation">:</span> <span class="token string">'Runoob'</span><span class="token punctuation">,</span> <span class="token string">'Age'</span><span class="token punctuation">:</span> <span class="token number">7</span><span class="token punctuation">,</span> <span class="token string">'Class'</span><span class="token punctuation">:</span> <span class="token string">'First'</span><span class="token punctuation">}</span> 
-
-<span class="token keyword">print</span> <span class="token punctuation">(</span><span class="token string">"dict['Alice']: "</span><span class="token punctuation">,</span> <span class="token builtin">dict</span><span class="token punctuation">[</span><span class="token string">'Alice'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-<p>以上实例输出结果：</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">Traceback <span class="token punctuation">(</span>most recent call last<span class="token punctuation">)</span><span class="token punctuation">:</span>
-  File <span class="token string">"test.py"</span><span class="token punctuation">,</span> line <span class="token number">5</span><span class="token punctuation">,</span> <span class="token keyword">in</span> <span class="token operator">&lt;</span>module<span class="token operator">&gt;</span>
-    <span class="token keyword">print</span> <span class="token punctuation">(</span><span class="token string">"dict['Alice']: "</span><span class="token punctuation">,</span> <span class="token builtin">dict</span><span class="token punctuation">[</span><span class="token string">'Alice'</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
-KeyError<span class="token punctuation">:</span> <span class="token string">'Alice'</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-
-
-<hr>
-<h2 id="修改字典"><a href="#修改字典" class="headerlink" title="修改字典"></a>修改字典</h2><p>向字典添加新内容的方法是增加新的键/值对，修改或删除已有键/值对如下实例:</p>
-<h4 id="实例-2"><a href="#实例-2" class="headerlink" title="实例"></a>实例</h4><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token builtin">dict</span> <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token string">'Name'</span><span class="token punctuation">:</span> <span class="token string">'Runoob'</span><span class="token punctuation">,</span> <span class="token string">'Age'</span><span class="token punctuation">:</span> <span class="token number">7</span><span class="token punctuation">,</span> <span class="token string">'Class'</span><span class="token punctuation">:</span> <span class="token string">'First'</span><span class="token punctuation">}</span>  
-
-<span class="token builtin">dict</span><span class="token punctuation">[</span><span class="token string">'Age'</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">8</span>                 <span class="token comment"># 更新 </span>
-Age <span class="token builtin">dict</span><span class="token punctuation">[</span><span class="token string">'School'</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token string">"菜鸟教程"</span>  <span class="token comment"># 添加信息   </span>
-
-<span class="token keyword">print</span> <span class="token punctuation">(</span><span class="token string">"dict['Age']: "</span><span class="token punctuation">,</span> <span class="token builtin">dict</span><span class="token punctuation">[</span><span class="token string">'Age'</span><span class="token punctuation">]</span><span class="token punctuation">)</span> 
-<span class="token keyword">print</span> <span class="token punctuation">(</span><span class="token string">"dict['School']: "</span><span class="token punctuation">,</span> <span class="token builtin">dict</span><span class="token punctuation">[</span><span class="token string">'School'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p>以上实例输出结果：</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token builtin">dict</span><span class="token punctuation">[</span><span class="token string">'Age'</span><span class="token punctuation">]</span><span class="token punctuation">:</span>  <span class="token number">8</span>
-<span class="token builtin">dict</span><span class="token punctuation">[</span><span class="token string">'School'</span><span class="token punctuation">]</span><span class="token punctuation">:</span>  菜鸟教程<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
-
-<hr>
-<h2 id="删除字典元素"><a href="#删除字典元素" class="headerlink" title="删除字典元素"></a>删除字典元素</h2><p>能删单一的元素也能清空字典，清空只需一项操作。</p>
-<p>显示删除一个字典用del命令，如下实例：</p>
-<h4 id="实例-3"><a href="#实例-3" class="headerlink" title="实例"></a>实例</h4><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token builtin">dict</span> <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token string">'Name'</span><span class="token punctuation">:</span> <span class="token string">'Runoob'</span><span class="token punctuation">,</span> <span class="token string">'Age'</span><span class="token punctuation">:</span> <span class="token number">7</span><span class="token punctuation">,</span> <span class="token string">'Class'</span><span class="token punctuation">:</span> <span class="token string">'First'</span><span class="token punctuation">}</span>  
-
-<span class="token keyword">del</span> <span class="token builtin">dict</span><span class="token punctuation">[</span><span class="token string">'Name'</span><span class="token punctuation">]</span> <span class="token comment"># 删除键 'Name' </span>
-<span class="token builtin">dict</span><span class="token punctuation">.</span>clear<span class="token punctuation">(</span><span class="token punctuation">)</span>     <span class="token comment"># 清空字典 </span>
-<span class="token keyword">del</span> <span class="token builtin">dict</span>         <span class="token comment"># 删除字典  </span>
-
-<span class="token keyword">print</span> <span class="token punctuation">(</span><span class="token string">"dict['Age']: "</span><span class="token punctuation">,</span> <span class="token builtin">dict</span><span class="token punctuation">[</span><span class="token string">'Age'</span><span class="token punctuation">]</span><span class="token punctuation">)</span> 
-<span class="token keyword">print</span> <span class="token punctuation">(</span><span class="token string">"dict['School']: "</span><span class="token punctuation">,</span> <span class="token builtin">dict</span><span class="token punctuation">[</span><span class="token string">'School'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p>但这会引发一个异常，因为用执行 del 操作后字典不再存在：</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">Traceback <span class="token punctuation">(</span>most recent call last<span class="token punctuation">)</span><span class="token punctuation">:</span>
-  File <span class="token string">"test.py"</span><span class="token punctuation">,</span> line <span class="token number">9</span><span class="token punctuation">,</span> <span class="token keyword">in</span> <span class="token operator">&lt;</span>module<span class="token operator">&gt;</span>
-    <span class="token keyword">print</span> <span class="token punctuation">(</span><span class="token string">"dict['Age']: "</span><span class="token punctuation">,</span> <span class="token builtin">dict</span><span class="token punctuation">[</span><span class="token string">'Age'</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
-TypeError<span class="token punctuation">:</span> <span class="token string">'type'</span> <span class="token builtin">object</span> <span class="token keyword">is</span> <span class="token keyword">not</span> subscriptable<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-<p><strong>注：</strong>del() 方法后面也会讨论。</p>
-<h2 id="字典键的特性"><a href="#字典键的特性" class="headerlink" title="字典键的特性"></a>字典键的特性</h2><p>字典值可以是任何的 python 对象，既可以是标准的对象，也可以是用户定义的，但键不行。</p>
-<p>两个重要的点需要记住：</p>
-<p>1）<strong>不允许同一个键出现两次</strong>。创建时如果同一个键被赋值两次，后一个值会被记住，如下实例：</p>
-<h4 id="实例-4"><a href="#实例-4" class="headerlink" title="实例"></a>实例</h4><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token builtin">dict</span> <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token string">'Name'</span><span class="token punctuation">:</span> <span class="token string">'Runoob'</span><span class="token punctuation">,</span> <span class="token string">'Age'</span><span class="token punctuation">:</span> <span class="token number">7</span><span class="token punctuation">,</span> <span class="token string">'Name'</span><span class="token punctuation">:</span> <span class="token string">'小菜鸟'</span><span class="token punctuation">}</span>  
-<span class="token keyword">print</span> <span class="token punctuation">(</span><span class="token string">"dict['Name']: "</span><span class="token punctuation">,</span> <span class="token builtin">dict</span><span class="token punctuation">[</span><span class="token string">'Name'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-<p>以上实例输出结果：</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token builtin">dict</span><span class="token punctuation">[</span><span class="token string">'Name'</span><span class="token punctuation">]</span><span class="token punctuation">:</span>  小菜鸟<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-
-<p>2）<strong>键必须不可变</strong>，所以可以用数字，字符串或元组充当，而用列表就不行，如下实例：</p>
-<h4 id="实例-5"><a href="#实例-5" class="headerlink" title="实例"></a>实例</h4><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token builtin">dict</span> <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">[</span><span class="token string">'Name'</span><span class="token punctuation">]</span><span class="token punctuation">:</span> <span class="token string">'Runoob'</span><span class="token punctuation">,</span> <span class="token string">'Age'</span><span class="token punctuation">:</span> <span class="token number">7</span><span class="token punctuation">}</span>  
-
-<span class="token keyword">print</span> <span class="token punctuation">(</span><span class="token string">"dict['Name']: "</span><span class="token punctuation">,</span> <span class="token builtin">dict</span><span class="token punctuation">[</span><span class="token string">'Name'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-<p>以上实例输出结果：</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">Traceback <span class="token punctuation">(</span>most recent call last<span class="token punctuation">)</span><span class="token punctuation">:</span>
-  File <span class="token string">"test.py"</span><span class="token punctuation">,</span> line <span class="token number">3</span><span class="token punctuation">,</span> <span class="token keyword">in</span> <span class="token operator">&lt;</span>module<span class="token operator">&gt;</span>
-    <span class="token builtin">dict</span> <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">[</span><span class="token string">'Name'</span><span class="token punctuation">]</span><span class="token punctuation">:</span> <span class="token string">'Runoob'</span><span class="token punctuation">,</span> <span class="token string">'Age'</span><span class="token punctuation">:</span> <span class="token number">7</span><span class="token punctuation">}</span>
-TypeError<span class="token punctuation">:</span> unhashable <span class="token builtin">type</span><span class="token punctuation">:</span> <span class="token string">'list'</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-
-
-<hr>
-<h2 id="字典内置函数-amp-方法"><a href="#字典内置函数-amp-方法" class="headerlink" title="字典内置函数&amp;方法"></a>字典内置函数&amp;方法</h2><p>Python字典包含了以下内置函数：</p>
-<table>
-<thead>
-<tr>
-<th align="left">序号</th>
-<th align="left">函数及描述</th>
-<th align="left">实例</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">1</td>
-<td align="left">len(dict) 计算字典元素个数，即键的总数。</td>
-<td align="left">&gt;&gt;&gt; dict = {‘Name’: ‘Runoob’, ‘Age’: 7, ‘Class’: ‘First’} <br>&gt;&gt;&gt; len(dict) <br>3</td>
-</tr>
-<tr>
-<td align="left">2</td>
-<td align="left">str(dict) 输出字典，以可打印的字符串表示。</td>
-<td align="left">&gt;&gt;&gt; dict = {‘Name’: ‘Runoob’, ‘Age’: 7, ‘Class’: ‘First’} <br>&gt;&gt;&gt; str(dict) <br>“{‘Name’: ‘Runoob’, ‘Class’: ‘First’, ‘Age’: 7}”</td>
-</tr>
-<tr>
-<td align="left">3</td>
-<td align="left">type(variable) 返回输入的变量类型，如果变量是字典就返回字典类型。</td>
-<td align="left">&gt;&gt;&gt; dict = {‘Name’: ‘Runoob’, ‘Age’: 7, ‘Class’: ‘First’} <br>&gt;&gt;&gt; type(dict) <br>&lt;class ‘dict’&gt;</td>
-</tr>
-</tbody></table>
-<p>Python字典包含了以下内置方法：</p>
-<table>
-<thead>
-<tr>
-<th align="left">序号</th>
-<th align="left">函数及描述</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">1</td>
-<td align="left"><a target="_blank" rel="noopener" href="https://www.runoob.com/python3/python3-att-dictionary-clear.html">radiansdict.clear()</a> <br>删除字典内所有元素</td>
-</tr>
-<tr>
-<td align="left">2</td>
-<td align="left"><a target="_blank" rel="noopener" href="https://www.runoob.com/python3/python3-att-dictionary-copy.html">radiansdict.copy()</a> <br>返回一个字典的浅复制</td>
-</tr>
-<tr>
-<td align="left">3</td>
-<td align="left"><a target="_blank" rel="noopener" href="https://www.runoob.com/python3/python3-att-dictionary-fromkeys.html">radiansdict.fromkeys()</a> <br>创建一个新字典，以序列seq中元素做字典的键，val为字典所有键对应的初始值</td>
-</tr>
-<tr>
-<td align="left">4</td>
-<td align="left"><a target="_blank" rel="noopener" href="https://www.runoob.com/python3/python3-att-dictionary-get.html">radiansdict.get(key, default=None)</a> <br>返回指定键的值，如果键不在字典中返回 default 设置的默认值</td>
-</tr>
-<tr>
-<td align="left">5</td>
-<td align="left"><a target="_blank" rel="noopener" href="https://www.runoob.com/python3/python3-att-dictionary-in.html">key in dict</a> <br>如果键在字典dict里返回true，否则返回false</td>
-</tr>
-<tr>
-<td align="left">6</td>
-<td align="left"><a target="_blank" rel="noopener" href="https://www.runoob.com/python3/python3-att-dictionary-items.html">radiansdict.items()</a> <br>以列表返回可遍历的(键, 值) 元组数组</td>
-</tr>
-<tr>
-<td align="left">7</td>
-<td align="left"><a target="_blank" rel="noopener" href="https://www.runoob.com/python3/python3-att-dictionary-keys.html">radiansdict.keys()</a> <br>返回一个迭代器，可以使用 list() 来转换为列表</td>
-</tr>
-<tr>
-<td align="left">8</td>
-<td align="left"><a target="_blank" rel="noopener" href="https://www.runoob.com/python3/python3-att-dictionary-setdefault.html">radiansdict.setdefault(key, default=None)</a> <br>和get()类似, 但如果键不存在于字典中，将会添加键并将值设为default</td>
-</tr>
-<tr>
-<td align="left">9</td>
-<td align="left"><a target="_blank" rel="noopener" href="https://www.runoob.com/python3/python3-att-dictionary-update.html">radiansdict.update(dict2)</a> <br>把字典dict2的键/值对更新到dict里</td>
-</tr>
-<tr>
-<td align="left">10</td>
-<td align="left"><a target="_blank" rel="noopener" href="https://www.runoob.com/python3/python3-att-dictionary-values.html">radiansdict.values()</a> <br>返回一个迭代器，可以使用 list() 来转换为列表</td>
-</tr>
-<tr>
-<td align="left">11</td>
-<td align="left">[pop(key<a target="_blank" rel="noopener" href="https://www.runoob.com/python3/python3-att-dictionary-pop.html">,default])</a> <br>删除字典给定键 key 所对应的值，返回值为被删除的值。key值必须给出。 否则，返回default值。</td>
-</tr>
-<tr>
-<td align="left">12</td>
-<td align="left"><a target="_blank" rel="noopener" href="https://www.runoob.com/python3/python3-att-dictionary-popitem.html">popitem()</a> <br>随机返回并删除字典中的最后一对键和值。</td>
-</tr>
-</tbody></table>
+                <h2 id="20210112-day01"><a href="#20210112-day01" class="headerlink" title="20210112_day01"></a>20210112_day01</h2><p>早上一如既往不想起床<br>被窝里好舒服好舒服<br>看了两集奇葩说<br>陈铭老师真的太棒了<br>每次听他辩论都能被深深打动<br>给我听哭了……<br>其实就是个爱哭鬼<br>太深情？？？不不不<br>就像my说的一样<br>“我比你想象的更深情<br>也比你以为的更冷漠”</p>
+<p>终于熬到下午2点<br>正当太阳晒屁股的时候<br>真的太舒服了<br>不情愿地起床后去拍了两张天空照片<br>今天的太阳好暖好暖，天空好蓝好蓝<br>于是发了怪异的朋友圈<br>说自己是奥特曼<br>我真是个小天才哈哈哈哈</p>
+<p>起床刚进厕所<br>就听到爸爸回来了<br>爸爸离开家3天了<br>好像是去哥哥家里帮他们打扫新房了</p>
+<p>于是帮爸爸收拾了一下他买来的鸡<br>对，是年货，<br>是要准备吃的被宰了的鸡<br>我看着老爸用酒精灯熏 鸡身上的毛<br>突然觉得它好可怜呀<br>人类为什么要吃鸡肉呢？<br>鸡这么可爱<br>我思考着<br>这些小动物们会不会也像人类一样<br>有他们自己的思考和沟通方式呢？<br>或许吧<br>我宁愿是如此，不然他们也太无聊了</p>
+<p>水泥地为什么会裂开呢？<br>糖是怎么生产出来的呢？<br>奥特曼真的存在吗？<br>鲁迅为什么说过那么多话呢？<br>经济学为什么是社会学科的皇冠呢？<br>绝对零度以下的世界会是什么样的呢？<br>人为什么必须要吃饭呢？<br>为什么不能以其他形式摄入能量呢？</p>
+<p>好想好想好想好想成为一个正常人呀<br>我感觉自己就是由两个人组成的<br>那个人它不讲武德<br>我唯一心情好的时间就是<br>被理解的时候<br>其余时间都是低落的<br>能被理解就有归属感<br>但是这种归属感或者说被理解的时光<br>也就足以维持那么几分钟<br>顶多一两个小时而已</p>
+<p>自从回家以后<br>食欲睡眠都不是很好<br>这两天睡眠还行吧(2点到10点)<br>但是食欲方面 基本一天一顿<br>我不是一个合格的干饭人</p>
+<p>即便在家里我也觉得自己不是很轻松<br>因为 我特别讨厌自己的一个点就是<br>我在家的日子里<br>每天跟爸妈的沟通不超过3句话<br>从小就是这样</p>
+<p>但当我一离开他们<br>我就又陷入自责之中<br>因为我特别特别想跟爸妈坐下来好好聊聊<br>我也特别羡慕那些20多岁<br>还能躺在爸妈怀里开玩笑的同龄人</p>
+<p>可我没有过，从我记事起，从来没有过。<br>我感觉自己亏欠了他们好多好多。<br>但是真的，一跟他们在一起，<br>所有的勇气一瞬间不知道跑去哪儿了，<br>就是不敢说话，说不出话。就觉得特别奇怪。<br>他们也不会主动和我说话。</p>
+<p>我深深明白他们爱我，<br>但是除了平常的关心以外<br>我感觉不到任何的家庭里本应该存在的那种温馨和爱。<br>我特别难受，我恨自己，我觉得自己有罪。<br>我抑郁的一大部分原因来源于此。</p>
+<p>gzr:<br>可是，爱的表达方式有很多种啊<br>他们最大的愿望可能就是你能健健康康的<br>我现在是这样，或者接近健康<br>他们可能就很满足了<br>真的有不善于表达的人<br>这不是错，也不需要改<br>只要你和父母都知道你们互相记挂<br>就像你确信他们爱你一样，<br>他们也会从别的方面知道你爱他们的<br>不一定非要说出来~抱抱.jpg</p>
+<p>可是不说话真的要憋死我，<br>但是一说话又感觉不知道说啥，<br>但又特别想去沟通<br>就很矛盾</p>
+<p>而且每次生病花钱，我都深深自责，<br>我感觉自己就是他们的累赘，真的是。<br>我在医院心肌酶高得离谱的时候，<br>我跟主任说，你别救我了，让我死吧，<br>死了他们也不用再为我花钱了，<br>我感觉自己破事真的好多好多好多，<br>根本不配活着，欠所有人的</p>
+<p>gzr:<br>我也不劝你怎样做是最好，<br>但是想和你说先不要太在意说话这件事，<br>可能是从小的习惯呢，<br>20多年的习惯哪这么容易改</p>
+<p>其实我也不知道自己想要什么<br>但我知道自己不想要什么<br>的确，很少有人知道自己想要什么</p>
+<p>可是，善良的人总是博爱，<br>我从来都是一个不喜欢麻烦别人的人<br>更何况是传播负能量……<br>我做那几个视频之前，内心纠结了好多天，<br>不知道该不该发，<br>感觉真的会影响到别人的心情<br>但最后还是发出去了<br>可能还是因为为了获得更多的“被理解”和“认同感”叭。<br>但发完之后，又特别后悔，<br>感觉自己真的太自私了<br>其实也是蛮痛苦的。<br>一方面，想被理解。<br>另一方面，又觉得自己是个负能量载体，<br>天天传播负能量，更加自卑自责。</p>
+<p>gzr:<br>我觉得这么说可能不太合适，<br>也可能你听过很多次了，<br>就是，<br>你如果能接受自己现在这样的状态，<br>也许会感觉好一些，<br>当然除了生病的状态<br>我看你在视频结尾都说了美好的祝福和亲身的建议<br>而且评论不是也有人表示赞同吗<br>我觉得你像那些引领伟大革命的人一样，<br>让大家认识心理疾病<br>把自己剖析给大众是很需要勇气的！<br>你真的很棒<br>我看完视频真的没有觉得有负能量</p>
+<p>还有还有，<br>分享一个比较暖的小故事。<br>B站发视频需要审核嘛，<br>然后昨天当我发完第二个视频后，<br>突然打来了一个来自上海的电话。<br>是b站审核视频的小哥哥，<br>安慰了我好久，<br>还说他们那边团队的小伙伴特别关心我，<br>特意给我打来电话安慰我。<br>真的太暖了！！！</p>
+<p>刚刚看到微博热搜<br>有只熊猫去世了，<br>有人评论说，<br>熊猫去了熊猫星球。</p>
+<p>那人去世了会去哪里呢？<br>被 白月光与朱砂痣<br>简单的幸福<br>洗脑了<br>觉得太好听了</p>
+<p>我拍了拍自己，说:“晚安叮叮车”<br>晚安 小点点<br>晚安 汤姆布利柏<br>晚安 唔西·迪西<br>晚安 玛卡·巴卡<br>晚安 哈呼呼<br>晚安 叮叮车<br>晚安 飞飞鱼<br>晚安 小朋友们<em>ଘ(੭</em>ˊᵕˋ)੭* ੈ✩‧₊˚​</p>
 
                 
             </div>
@@ -705,7 +561,7 @@ TypeError<span class="token punctuation">:</span> unhashable <span class="token 
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://github.com/15600563705/15600563705.github.io/child/2020/12/25/python-zi-dian/">https://github.com/15600563705/15600563705.github.io/child/2020/12/25/python-zi-dian/</a>
+                    <a href="https://github.com/15600563705/15600563705.github.io/child/2021/01/12/20210112-day01/">https://github.com/15600563705/15600563705.github.io/child/2021/01/12/20210112-day01/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -743,8 +599,8 @@ TypeError<span class="token punctuation">:</span> unhashable <span class="token 
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/python%E5%9F%BA%E7%A1%80/">
-                                    <span class="chip bg-color">python基础</span>
+                                <a href="/tags/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/">
+                                    <span class="chip bg-color">日常记录</span>
                                 </a>
                             
                         </div>
@@ -914,17 +770,18 @@ TypeError<span class="token punctuation">:</span> unhashable <span class="token 
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2020/12/25/python-lie-biao/">
+                <a href="/2021/01/12/20210112-day01/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/15600563705/15600563705.github.io/medias/featureimages/16.jpg" class="responsive-img" alt="Python 列表(List)">
+                        <img src="https://cdn.jsdelivr.net/gh/15600563705/15600563705.github.io/medias/featureimages/3.jpg" class="responsive-img" alt="20210112_day01">
                         
-                        <span class="card-title">Python 列表(List)</span>
+                        <span class="card-title">20210112_day01</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -934,26 +791,27 @@ TypeError<span class="token punctuation">:</span> unhashable <span class="token 
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-12-25
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-01-12
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Python/" class="post-category">
-                                    Python
+                            <a href="/categories/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/" class="post-category">
+                                    日常记录
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/python%E5%9F%BA%E7%A1%80/">
-                        <span class="chip bg-color">python基础</span>
+                    <a href="/tags/%E6%97%A5%E5%B8%B8%E8%AE%B0%E5%BD%95/">
+                        <span class="chip bg-color">日常记录</span>
                     </a>
                     
                 </div>
@@ -964,16 +822,16 @@ TypeError<span class="token punctuation">:</span> unhashable <span class="token 
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/12/25/python-zi-dian/">
+                <a href="/2020/12/25/huo-zhao-jiu-shi-wei-da/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/15600563705/15600563705.github.io/medias/featureimages/21.jpg" class="responsive-img" alt="Python 字典">
+                        <img src="https://cdn.jsdelivr.net/gh/15600563705/15600563705.github.io/medias/featureimages/11.jpg" class="responsive-img" alt="活着就是伟大">
                         
-                        <span class="card-title">Python 字典</span>
+                        <span class="card-title">活着就是伟大</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -990,20 +848,19 @@ TypeError<span class="token punctuation">:</span> unhashable <span class="token 
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Python/" class="post-category">
-                                    Python
+                            <a href="/categories/%E6%83%85%E7%BB%AA%E7%AE%A1%E7%90%86/" class="post-category">
+                                    情绪管理
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/python%E5%9F%BA%E7%A1%80/">
-                        <span class="chip bg-color">python基础</span>
+                    <a href="/tags/%E7%9D%A1%E7%9C%A0%E9%9A%9C%E7%A2%8D/">
+                        <span class="chip bg-color">睡眠障碍</span>
                     </a>
                     
                 </div>
